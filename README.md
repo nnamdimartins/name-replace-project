@@ -70,5 +70,6 @@ ec2-3-145-163-28.us-east-2.compute.amazonaws.com:3000/replace?input=ing
 
 3.145.163.28:3000/replace?input=ing
 
+With the last input we can change the word to either of the words we intend to find and replace and it will return the replaced words.
 
 
