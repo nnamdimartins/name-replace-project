@@ -44,8 +44,31 @@ This command will print the git version in the terminal.
 
 # To clone repository of my project from Github you need to run this command:
 
-git clone https://github.com/sumant-mishra/node-app.git
+- git clone https://github.com/nnamdimartins/name-replace-project.git
+- This will create a folder with name name-replace-project.
+- Now, move into the folder _"name-replace-project"_ by running below command in the terminal window:
 
-This will create a folder with name node-app.
+cd name-replace-project
+
+If you check the list of folders using ls command, the current folder structure does not contain the node_modules folder. This folder will be created automatically after installing the dependencies. To install dependencies, run below command in the terminal:
+
+npm install
+
+# Start the application
+To start the application, run the below command in the terminal:
+
+node app.js
+
+If the server runs successfully, then it should print a message with the port number in the terminal window as shown below
+app.js is listening on port 3002
+
+# Access the application in a browser
+
+Now, we are ready and can access our application using both Public IP or Public DNS and port 3002 in browsers. For example,
+
+ec2-3-145-163-28.us-east-2.compute.amazonaws.com:3000/replace?input=ing
+
+3.145.163.28:3000/replace?input=ing
+
 
 
